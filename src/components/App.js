@@ -5,7 +5,10 @@ import './../styles/App.css';
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+         <h1>Parent Component</h1>
+      <ChildComponent1 setOption={setOption }/>
+      <ChildComponent2 setOption={setOption}/>
+      <p>Selected Option:{option}</p>
     </div>
   )
 }
