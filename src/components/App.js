@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="parent">
          <h1>Parent Component</h1>
       <ChildComponent1 setOption={setOption }/>
       <ChildComponent2 setOption={setOption}/>
