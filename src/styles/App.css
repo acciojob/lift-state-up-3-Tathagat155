@@ -1,1 +1,10 @@
 
+body{
+  background-color: green;
+}
+.child1{
+  background-color: brown;
+}
+.child2{
+  background-color: yellow;
+}
